@@ -1,0 +1,13 @@
+version: '3'
+
+services: 
+  react:
+    build: .
+    image: "node:14-alpine"
+    command: npm run start
+    container_name: react_container
+    ports:
+      - "3000:3000"        
+    volumes: 
+      - .:/home/frontend
+      - /home/frontend/node_modules
