@@ -74,3 +74,15 @@ end
 # nokogiri for web scraping
 gem 'nokogiri'
 gem 'mechanize'
+
+# allow cors
+gem 'rack-cors'
+
+# allow scheduled background tasks 
+gem "sidekiq-cron"
+
+# BDD testing
+group :development, :test do
+  gem 'rspec-rails'
+end
+gem 'rexml'
