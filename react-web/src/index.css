@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --primary-color: white;
+  --secondary-color: rgb(32, 204, 46);
+}
+
+.d-grid {
+  display: grid;
+}

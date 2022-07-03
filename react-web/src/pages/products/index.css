@@ -1,0 +1,19 @@
+.products {
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(4, 1fr); */
+    place-items: center;
+    grid-gap: 2rem;
+}
+
+.categories {
+    padding: 1rem 0 2rem 0;
+    display: flex;
+    justify-content: start;
+}
+
+.category {
+    border: 0;
+    background-color: tan;
+    border-radius: 20px;
+    padding: .8rem 2rem;
+}

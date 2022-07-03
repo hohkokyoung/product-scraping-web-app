@@ -11,7 +11,7 @@ COPY ./package.json /frontend
 RUN npm install
 
 # copy other project files
-COPY . .
+COPY . /frontend
 
 # build the folder
 CMD [ "npm", "run", "start" ]
